@@ -42,10 +42,6 @@ tenacity==9.1.4
 threadpoolctl==3.6.0
 toml==0.10.2
 tornado==6.5.4
-# Editable Git install with no remote (turtlebot3-example==2.3.6)
--e /Users/tanaphonloesphuwiwat/turtlebot3_ws/build/turtlebot3_example
-# Editable Git install with no remote (turtlebot3-teleop==2.3.6)
--e /Users/tanaphonloesphuwiwat/turtlebot3_ws/build/turtlebot3_teleop
 typing_extensions==4.15.0
 tzdata==2025.3
 urllib3==2.6.3
