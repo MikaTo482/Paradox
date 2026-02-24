@@ -37,9 +37,6 @@ def user_input_features():
     work_no = st.sidebar.selectbox("Work Number", options=work_numbers)
     operator = st.sidebar.selectbox("Operator Name", options=operators)
 
-    # คำนวณ Features วิศวกรรมที่เราสร้างขึ้น
-    total_path = teeth * thickness * out_qty
-
     # 'work_no_100', 'work_no_110',
     # 'work_no_120', 'work_no_130', 'work_no_140', 'work_no_150',
     # 'work_no_30', 'work_no_40', 'work_no_70', 'work_no_80', 'work_no_90'
