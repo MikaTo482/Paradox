@@ -113,7 +113,7 @@ with col2:
         st.write(f"✅ Production will finish at: **{finish_time.strftime('%Y-%m-%d %H:%M:%S')}**")
 
     except:
-        st.warning("⚠️ Fix the error in prediction process.")
+        st.warning("⚠️ Fix the error")
 
 # --- ส่วนการแสดงความสัมพันธ์ (Option) ---
 st.divider()
