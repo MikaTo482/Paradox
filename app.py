@@ -69,8 +69,8 @@ def user_input_features():
         'OperatorEng_Operator_9': 1 if operator == 'Operator_9' else 0,
         'output quantity': out_qty,
         'module': module,
-        'number of teeth': teeth,
         'thickness': thickness,
+        'number of teeth': teeth,
         'Continuous': continuous,
     }
 
